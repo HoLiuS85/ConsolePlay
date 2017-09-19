@@ -10,6 +10,9 @@ namespace ConsolePlay
     {
         static void Main(string[] args)
         {
+            ConsoleInterface.WriteBorder();
+            ConsoleInterface.WriteHelp();
+            Console.ReadKey();
         }
     }
 }
